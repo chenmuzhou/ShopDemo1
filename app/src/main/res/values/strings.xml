@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">博美购物</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_index">首页</string>
+    <string name="title_class">分类</string>
+    <string name="title_customer">客服</string>
+    <string name="title_car">购物车</string>
+    <string name="title_person">个人中心</string>
+
+
+
+
+
+    <string name="person_name">12113256464</string>
+    <string name="person_name_login">请登录</string>
+    <string name="yika_tong">一卡通</string>
+    <string name="jituan_zongbu">集团总部</string>
+    <string name="loginimmed">立即登录</string>
+    <string name="text1">还需要邀请</string>
+    <string name="text2">个直接好友可拿业绩提成</string>
+    <string name="text3">或直接升级为一卡通用户，业绩提成提升20%+</string>
+    <string name="text_yika">幸福哩一卡通</string>
+    <string name="text_yika_upgrade">升级特权</string>
+    <string name="text_num">559.57</string>
+    <string name="text_balance">余额</string>
+    <string name="text_vouchers">购物券</string>
+    <string name="text_integral">积分</string>
+    <string name="text_shop_car">购物车</string>
+    <string name="text_shop_car_num">51件商品  </string>
+    <string name="text_my_attention">我的关注</string>
+    <string name="text_my_attention_num">580件商品</string>
+    <string name="text_my_footprint">我的足迹</string>
+    <string name="text_my_order">我的订单</string>
+    <string name="text_all_order">全部订单</string>
+    <string name="text_payment">待付款</string>
+    <string name="text_delivery">待发货</string>
+    <string name="text_take_delivery">待收货</string>
+    <string name="text_return_delivery">退换货</string>
+    <string name="text_bar_code">条形码</string>
+    <string name="text_members">会员/员工</string>
+    <string name="text_union">员工/工会</string>
+    <string name="text_user">用户</string>
+    <string name="text_pay_car">0首付购车</string>
+    <string name="text_pay_car_next">低月供、特价车</string>
+    <string name="text_online_car">0首付网约车</string>
+    <string name="text_online_car_next">公司户、个人户</string>
+    <string name="text_hainan">海南旅居</string>
+    <string name="text_hainan_next">低投资、稳收益</string>
+
+
+
+
+
+</resources>

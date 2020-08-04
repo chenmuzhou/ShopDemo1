@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="color_person_head_bg">#fb5348</color>
+    <color name="color_person_black_bg">#3e3d39</color>
+    <color name="color_person_golden_bg">#d2c18a</color>
+    <color name="color_person_white_bg">#ffffff</color>
+    <color name="color_person_bg">#f0f1f6</color>
+
+
+
+
+
+
+
+    <color name="line_color">#e6e6e6</color>
+    <color name="navigation_text_color">#fb5348</color>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--文字字体颜色-->
+    
+    <color name="white_text">#ffffff</color>
+    <color name="text1">#b57b63</color>
+    <color name="text2">#a45d3e</color>
+    <color name="text_yika_color">#d1bf89</color>
+    <color name="text_line">#999999</color>
+    <color name="text_black_color">#000000</color>
+    <color name="text_black_color_3">#333333</color>
+</resources>

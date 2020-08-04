@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/ma_top_5">
+<include layout="@layout/person_chest_item_one"/>
+    <include layout="@layout/person_chest_item_three_order"/>
+    <include layout="@layout/person_chest_item_four_advertising"/>
+    <include layout="@layout/person_chest_item_five_employees"/>
+    <include layout="@layout/person_chest_item_six_car"/>
+    <include layout="@layout/person_chest_item_end"/>
+</LinearLayout>

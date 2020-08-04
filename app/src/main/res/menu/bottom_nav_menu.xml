@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab_home_item"
+        android:icon="@drawable/navigation_index"
+        app:showAsAction="ifRoom"
+        android:title="@string/title_index" />
+
+    <item
+        android:id="@+id/tab_fenlei_item"
+        android:icon="@drawable/navigation_fenlei"
+        android:title="@string/title_class" />
+
+    <item
+        android:id="@+id/tab_notifications_item"
+        android:icon="@drawable/navigation_kefu"
+        android:title="@string/title_customer" />
+    <item
+        android:id="@+id/tab_car_item"
+        android:icon="@drawable/navigation_car"
+        android:title="@string/title_car" />
+    <item
+        android:id="@+id/tab_person_item"
+        android:icon="@drawable/navigation_person"
+        android:title="@string/title_person" />
+
+</menu>

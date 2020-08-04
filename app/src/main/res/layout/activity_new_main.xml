@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <!--隐藏状态栏，用来控制布局不被上顶-->
+
+    <LinearLayout
+        android:id="@+id/linear_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:orientation="vertical"
+        android:background="@color/color_person_head_bg"
+        />
+
+    <com.example.shopdemo.views.NoScrollViewPager
+        android:id="@+id/main_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <RadioGroup
+            android:id="@+id/index_rg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/index_rb"
+                style="@style/MyRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checked="true"
+                android:drawableTop="@drawable/navigation_index"
+                android:textColor="@drawable/navigation_text_color"
+                android:text="首页" />
+
+            <RadioButton
+                android:id="@+id/fenlei_rb"
+                style="@style/MyRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/navigation_fenlei"
+                android:textColor="@drawable/navigation_text_color"
+                android:text="分类" />
+
+            <RadioButton
+                android:id="@+id/kefu_rb"
+                style="@style/MyRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/navigation_kefu"
+                android:textColor="@drawable/navigation_text_color"
+                android:text="客服" />
+
+            <RadioButton
+                android:id="@+id/gouwu_car_rb"
+                style="@style/MyRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/navigation_car"
+                android:textColor="@drawable/navigation_text_color"
+                android:text="购物车" />
+
+            <RadioButton
+                android:id="@+id/wode_rb"
+                style="@style/MyRadioButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/navigation_person"
+                android:textColor="@drawable/navigation_text_color"
+                android:text="个人中心" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_yuandian"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="115dp"
+            android:background="@drawable/yuan"
+            android:gravity="center"
+            android:text="99+"
+            android:textColor="@android:color/white"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+    </FrameLayout>
+</LinearLayout>

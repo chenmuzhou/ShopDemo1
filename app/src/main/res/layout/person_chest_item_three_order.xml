@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/ma_top_5"
+    android:layout_marginLeft="@dimen/ma_top_10"
+    android:layout_marginRight="@dimen/ma_top_10"
+    android:background="@drawable/lin_white_bg_rou"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_13"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_my_order"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/text_black_color"/>
+
+        <TextView
+            android:id="@+id/btn_all_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_all_order"
+            android:drawableRight="@mipmap/enter_the_img"
+            android:drawablePadding="@dimen/ma_2"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/text_size_14"/>
+    </RelativeLayout>
+ <com.example.shopdemo.view.MyGridView
+     android:id="@+id/person_order_grid"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="@dimen/ma_top_10"
+     android:numColumns="4"/>
+</LinearLayout>

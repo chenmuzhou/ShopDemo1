@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_person_head_bg</item>
+        <item name="colorPrimaryDark">@color/color_person_head_bg</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MyRadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">@dimen/padding3</item>
+        <item name="android:gravity">center|bottom</item>
+        <item name="android:paddingBottom">@dimen/padding5</item>
+        <item name="android:textSize">@dimen/text_font_0_8</item>
+
+    </style>
+</resources>
